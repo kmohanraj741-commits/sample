@@ -13,3 +13,5 @@ if __name__ == "__main__":
  print("Grade:", calculate_grade(marks))
 def average(marks_list):
  return sum(marks_list) / len(marks_list)
+def topper(marks_dict):
+ return max(marks_dict, key=marks_dict.get)
